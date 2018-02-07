@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--注意：如果当前使用的fragment时listfragment那么在对应的
+    布局中定义的listview标签中id为固定值。为@id/android:list
+    android.R.id.list
+    -->
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</android.support.constraint.ConstraintLayout>
